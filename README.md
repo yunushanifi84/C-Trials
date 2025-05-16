@@ -59,3 +59,66 @@ gcc filename.c -o program -lm
 ./program
 ``` 
 
+---
+
+# C Deneme Programları Koleksiyonu
+
+Bu depo, farklı kavramları ve algoritmaları kapsayan çeşitli C programlama örneklerini içerir.
+
+## Dosya Açıklamaları
+
+### ATM Programları
+- **atm.c**: Para çekme, yatırma, bakiye sorgulama ve kart iade seçenekleri olan basit bir ATM programı.
+- **atm-advanced.c**: Para transferi için ek işlevsellik içeren gelişmiş bir ATM programı.
+
+### Matematik Programları
+- **calculator.c**: Temel matematiksel işlemler (toplama, çıkarma, çarpma, bölme) ve desen gösterimleri için bir program.
+- **factorial.c**: Bir sayının faktöriyelini hesaplayan bir program.
+- **fibonacci.c**: Fibonacci dizisi oluşturan bir program.
+- **fibonacci_v2.c**: Fibonacci dizisi oluşturucu programının alternatif bir uygulaması.
+- **gcd_lcm.c**: İki sayının En Büyük Ortak Bölenini (EBOB) ve En Küçük Ortak Katını (EKOK) hesaplayan bir program.
+- **quadratic_equation_solver.c**: İkinci dereceden denklemleri çözen ve köklerini bulan bir program.
+- **quadratic_equation_solver_v2.c**: Karmaşık sayı işleme özelliğine sahip geliştirilmiş bir ikinci dereceden denklem çözücü.
+- **series_calculation.c**: Kullanıcı girdilerine dayalı matematiksel bir seriyi hesaplayan bir program.
+- **SumOfTheBetweenNumbers.c**: Verilen iki sayı arasındaki sayıların toplamını hesaplayan bir program.
+
+### Not Hesaplama Programları
+- **grade.c**: Vize ve final notlarına dayalı ders notlarını hesaplayan bir program.
+- **grade-calculator.c**: Çeşitli dersler için kapsamlı bir not hesaplayıcı.
+- **grade_calculator_if.c**: If ifadelerini kullanan bir not hesaplayıcı.
+- **grade_calculator_v2.c**: Farklı not ölçekleri ile alternatif bir not hesaplayıcı uygulaması.
+
+### Desen Gösterim Programları
+- **butterfly_pattern.c**: Yıldız işaretleriyle kelebek deseni gösteren bir program.
+- **diamond_pattern.c**: Yıldız işaretleriyle elmas deseni gösteren bir program.
+- **hourglass_animation.c**: Normal ve yan kum saati desenleri arasında değişen animasyonlu bir kum saati deseni gösterimi.
+
+### Diğer Programlar
+- **cone_volume.c**: Yüksekliği ve çapı verilen bir koninin hacmini hesaplayan bir program.
+- **digit_sum_and_count.c**: Verilen bir sayının rakamlarının toplamını ve rakam sayısını hesaplayan bir program.
+- **max_min_array.c**: Bir dizideki maksimum ve minimum değerleri bulan bir program.
+- **monkey_banana.c**: Cinsiyete ve kafese giriş sayısına göre bir maymunun kaç muz yediğini hesaplayan bir simülasyon programı.
+
+## Nasıl Çalıştırılır
+
+Herhangi bir programı derlemek ve çalıştırmak için:
+
+```bash
+gcc dosyaadi.c -o program
+./program
+```
+
+Örneğin:
+
+```bash
+gcc calculator.c -o hesaplayici
+./hesaplayici
+```
+
+Matematik kütüphanesini kullanan programlar için (ikinci dereceden denklem çözücüler gibi):
+
+```bash
+gcc dosyaadi.c -o program -lm
+./program
+``` 
+
