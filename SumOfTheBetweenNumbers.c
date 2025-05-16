@@ -5,7 +5,7 @@
 
 int main()
 {
-    int number1, number2, min, max,collect=0;
+    int number1, number2, min, max, sum = 0;
     printf("Number One: ");
     scanf("%d", &number1);
     printf("Number Two: ");
@@ -20,9 +20,9 @@ int main()
         min = number1;
         max = number2;
     }
-    for (int j = (min+1); j <max;j++){
-        collect+=j;
+    for (int j = (min+1); j < max; j++) {
+        sum += j;
     }
-        printf("The collection of between the numbers : %d",collect);
-        return 0;
+    printf("The sum of numbers between the two numbers: %d", sum);
+    return 0;
 }
